@@ -13,16 +13,16 @@
 </head>
 
 <body>
-    <header style="padding: 4rem 0; text-align:center; font-weight: bold;">
+    <header id="top" style="padding: 4rem 0; text-align:center; font-weight: bold;">
         <h1>Dream Travel</h1>
     </header>
     <nav>
         <ul>
             <li><a href="#">Úticélok</a></li>
-            <li><a href="#">Galéria</a></li>
+            <li><a href="#galery">Galéria</a></li>
             <li><a href="#">Kapcsolat</a></li>
             <li><a href="#">Turizmus</a></li>
-            <li><a href="#">Rólunk</a></li>
+            <li><a href="./Bekezdésnek.html" target="_blank">Rólunk</a></li>
         </ul>
     </nav>
     <main>
@@ -63,12 +63,40 @@
         </div>
         <hr>
         <h3 id="also">Galéria</h3>
-        <div class="galery grid">
+        <div class="galery grid" id="galery">
             <figure><img class="picture" src="./img/Last_Vegas_img.jpg" alt="Last_vegas" title="Last_vegas"></figure>
             <figure><img class="picture" src="./img/Last_Vegas_img.jpg" alt="Last_vegas" title="Last_vegas"></figure>
             <figure><img class="picture" src="./img/Last_Vegas_img.jpg" alt="Last_vegas" title="Last_vegas"></figure>
             <figure><img class="picture" src="./img/Last_Vegas_img.jpg" alt="Last_vegas" title="Last_vegas"></figure>
         </div>
+        <table>
+            <tr>
+                <th>Cél</th>
+                <th>Indulási idő</th>
+                <th>Ára</th>
+            </tr>
+            <tr>
+                <td>Tokio</td>
+                <td>2026-05-09</td>
+                <td>501000 FT</td>
+            </tr>
+            <tr>
+                <td>Párizs</td>
+                <td>2025-09-04</td>
+                <td>70000 FT</td>
+            </tr>
+            <tr>
+                <td>Nagyfüged</td>
+                <td>2026-04-01</td>
+                <td rowspan="2"> 100520 FT</td>
+            </tr>
+            <tr>
+                <td>Róma</td>
+                <td>2026-03-05</td>
+
+            </tr>
+        </table>      
+
         <!-- for id-->
         <h3 id="also">Jelentkezés az utazásra</h3>
         <div class="container">
@@ -88,7 +116,7 @@
         </div>
     </main>
     <footer style="margin: 5rem;">
-
+            <a href="#top">Vissza a tetejére</a>
     </footer>
 </body>
 
